@@ -1,0 +1,115 @@
+*{
+margin: 0   ;
+padding: 0;
+box-sizing: border-box;
+}
+header{ 
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 1%;
+    padding-left: 2%;
+}
+
+button {
+    cursor: pointer;
+}
+
+nav {
+    color:white;
+    cursor: pointer;
+    border-bottom: 2px transparent solid;
+}
+
+nav:hover {
+    color:orange;
+    border-bottom: 2px orange solid;
+}
+
+.nav-list{
+    display: flex;
+    gap: 20px;
+}
+.signin{
+    color: black;
+    background-color: orange;
+    width: 70px;
+    height: 30px;
+}
+button:nth-child(2n){
+    color: black;
+    background-color: rgb(255, 255, 255);
+    width: 70px;
+    height: 30px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+    
+}
+.home-para{
+    width: 500px;
+    gap: 20px;
+   
+}
+.home-para>p{
+    margin-top: 2%;
+    line-height: 1.5;
+}
+.img-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    gap: 25px;
+  
+}
+.image-style{
+    width: 400px;
+    border-radius: 25px;
+    height: 300px;
+}
+.section-final{
+    padding: 2%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column ;
+    gap: 20px;
+  
+}
+
+
+#btn-final{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+
+}
+.btn1{
+    color: black !important;
+    background-color: rgb(255, 255, 255) !important;
+    width: 100px !important;
+    height: 30px !important;
+}
+.btn2{
+    color: black !important;
+    background-color: orange !important;
+    width: 70px !important;
+    height: 30px !important;
+}
+
+footer{ 
+    margin-top: 2%;
+    text-align: center;
+    padding:20px;
+    background-color: black ;
+    color:white
+} 
